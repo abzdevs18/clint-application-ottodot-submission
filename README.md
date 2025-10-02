@@ -64,6 +64,10 @@ The `.env` file already contains database and Redis credentials. **All services 
 DATABASE_URL="postgresql://postgres.xxx@aws-1-ap-southeast-1.pooler.supabase.com:6543/postgres?pgbouncer=true"
 DIRECT_URL="postgresql://postgres.xxx@aws-1-ap-southeast-1.pooler.supabase.com:5432/postgres"
 
+# Supabase Configuration (for Realtime if needed)
+NEXT_PUBLIC_SUPABASE_URL=https://gspwrguoayjivlqlwkpn.supabase.co
+NEXT_PUBLIC_SUPABASE_ANON_KEY=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImdzcHdyZ3VvYXlqaXZscWx3a3BuIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTkzNzEzOTAsImV4cCI6MjA3NDk0NzM5MH0.8YVXAxghiVDwgdFWVI3k61IVEO0xdTgY16HlqY1pPR0
+
 # Anthropic Claude API (Pre-configured)
 CLAUDE_API_KEY=sk-ant-api03-xxx
 
